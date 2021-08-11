@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="starmaker">
+        <title>Star Maker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+        <script src="/js/jquery.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        
+
+        <style>
+          
+          .navbar-dark .navbar-brand {
+            color: deepskyblue;
+          }
+          /* .h1 {
+            text-align: center;
+          } */
+          .text1 h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 70px;
+  }
+  input.mono {
+    
+    border: 2px solid dodgerblue;
+    border-radius: 67px;
+    width: 70%;
+    height: 50px;
+    background-color: white;
+}
+.search {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+/* button.animated-fill-button{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 20%;
+    width: 30%;
+    height: 40px;
+    background-color: white;
+} */
+h2.text2 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 60px;
+}
+
+/* start underline */
+.hover-underline-animation {
+  display: revert;
+  position: relative;
+  color: dodgerblue;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: dodgerblue;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+h2.hover-underline-animation {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5%;
+}
+/* End */
+
+p.para1 {
+    text-align: justify;
+    margin-top: 3%;
+}
+/* 
+ 
+  background: #fff;
+  color: dodgerblue;
+  border: 1px solid blue;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.animated-fill-button:hover {
+  background: dodgerblue;
+  color: #fff;
+} */
+
+
+.tute {
+   
+    text-align: justify;
+    /* padding-right: 7%;
+    margin: 5%; */
+
+}
+.alice {
+    
+    text-align: center;
+}
+.icon{
+    font-size: 7rem;
+    color: dodgerblue;
+}
+
+
+
+
+/* STart Download button */
+.gradient{ 
+  background-color:#fff;
+}
+.gradient .btn{ 
+  color:#000;
+  border-radius:4px;
+  background-size: 200% auto;
+  box-shadow:0px 0px 15px 0 rgba(0,0,0,.1);
+}
+.gradient .btn:hover{
+  background-position: right center;
+}
+
+
+.gradient .btn-4{
+  background-image: linear-gradient(to right, #EAECC6 0%, #1891af 61%, #eceed0 100%);
+}
+
+a.btn.btn-4 {
+    margin-left: 20%;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+}
+/* End button */
+
+
+/* start faq  */
+a.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+  text-decoration: none;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+.h1 {
+    margin-top: 5%;
+}
+a.effect-shine {
+    font-size: 60px;
+}
+.ol {
+    padding: 1%;
+}
+
+/* end */
+
+
+/* Footer start */
+.foot {
+    background-color: black;
+}
+h1.tacos {
+    text-align: center;
+    color: white;
+    font-size: xxx-large;
+    padding-top: 2%;
+}
+p.anum {
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+p.sea {
+    text-align: center;
+    font-size: larger;
+    color: white;
+    line-height: initial;
+}
+.foot {
+    padding: 5%;
+}
+footer.utter {
+    margin-top: 3%;
+}
+/* Footer End */
+
+
+
+
+
+
+        </style>
+
+
+    </head>
+    <body>
+      
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            
+            <a class="navbar-brand" href="#">Star Downloader</a>
+            
+           
+            <!-- <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul> -->
+          </nav>
+          <div class="container">
+            <section1>
+            
+                
+          <div class="text1">
+              <h1>StarMaker Songs Downloader</h1>
+          </div>
+          <div class="search">
+            <!-- <div class="col-md-12 solo"> -->
+            <h5>StarMaker Song URL/Link:</h5>
+            <input class="mono" type="url" placeholder=  "   ENTER YOUR URL... " name="enter your url">
+            <p>Click on download.</p>
+            <!-- <div class="down"> -->
+              <!-- <button class="animated-fill-button">Download</button> -->
+              <div class="row gradient"><a class="btn btn-4">Download</a></div>
+            <!-- </div> -->
+            </div>
+            </section1>
+
+
+
+
+            <section2>
+              
+               
+                <h2 class="hover-underline-animation">StarMaker</h2>
+                <p class="para1">Star Downloader is a very advance and free tool that is used 
+                  to download songs from StarMaker in MP3/MP4. StarMaker is a popular singing app 
+                  and music community with 50M＋users globally. StarMaker helps people to showcase 
+                  their singing talent on the platform. The app collaborates with various brands and 
+                  recording artist to help users create and share their talent by making duet videos. 
+                  But the StarMaker app do not allow anyone to download songs in your mobile or laptop 
+                  or pc. So, this is a website by which you can solve the problem of downloading.
+
+                  If you see a song on your StarMaker feed and you want to download that cover songs in your 
+                  gallery, then Star Downloader is the best choice for it. The most distinguish and 
+                  fantastic feature of this website is this, that here you can also download the song 
+                  in mp3 format. If you think this website is good then dont forget to share it with your
+                   friends.
+                  
+                  </p>
+              
+            </section2>
+
+
+
+
+            <section3>
+              
+                <!-- <h1 class="head3">Frequently Asked Quetions</h1> -->
+                <h1 align="center"><a href="#" class="effect-shine">Frequently Asked Quetions</a></h1>
+
+                <div class="tute">
+                <ol>
+                  <li>
+                    <p class="para2"><b>
+                      <u>How does Star Downloader downloads songs from StarMaker?</u></b>
+                    </p>
+                    <p class="para3">When you enter the link/URL to StarMaker song, StarMaker downloader's server sends the request
+                      to StarMaker and gets the StarMaker page which has StarMaker video in it. After that our StarMaker video
+                      downloader script looks for the video links and extracts the HD quality links in MP4 format or in mp3
+                      format.</p>
+                  </li>
+                  <li>
+                    <p class="para2"><b>
+                      <u>What is the format of downloaded StarMaker song?</u></b>
+                    </p>
+                    <p class="para3">The format of the downloaded song will be MP3 or MP4 as per your choice.</p>
+                  </li>
+                  <li>
+                    <p class="para2">
+                      <b><u>In which format StarMaker videos gets downloaded?</u></b>
+                    </p>
+                    <p class="para3">StarMaker stores the videos in MP4 format, but the downloaded video can be in mp3 or mp4
+                      format as per your wish.
+                    </p>
+                  </li>
+                  <li>
+                    <p class="para2">
+                      <b><u>How do I download live StarMaker Videos?</u></b>
+                    </p>
+                    <p class="para3">To download any live StarMaker video, you must wait until the streaming is finished, and then
+                      you can download them just like other videos by entering the video link in the online StarMaker video
+                      downloader.</p>
+                  </li>
+                  <li>
+                    <p class="para2">
+                      <b><u>Where are my starmaker videos getting saved after I download them?</u></b>
+                    </p>
+                    <p class="para3">When you use Star Downloader, downloaded StarMaker songs are saved in "Downloads" folder
+                      of your PC. And in mobile phones also they get saved in the download folder.</p>
+                  </li>
+                </ol>
+              </div>
+            </section3>
+
+  
+            <section4>
+              <div class="row copy">
+                <div class="col-lg-4">
+                    <div class="alice">
+                        <div class="icon">
+                          <i class="fas fa-music"></i>
+                        </div>
+                        <h3>Free MP4/MP3 Download</h3>
+                        <p class="lead mb-0">Unlimitedly free conversions and downloads.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="alice">
+                        <div class="icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h3>Most Websites Supported</h3>
+                        <p class="lead mb-0">Wide range of online video/audio website supported.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="alice">
+                        <div class="icon">
+                        
+                          <i class="fas fa-cloud-download-alt"></i>
+                        </div>
+                        <h3>Easy Download</h3>
+                        <p class="lead mb-0">No registration required and no software installation necessary.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </section4>
+
+          </div>
+          <!-- </div> -->
+
+          <footer class="utter">
+            <div class="container-fluid">
+              <div class="foot">
+                <h1 class="tacos">StarMaker Video Downloader</h1>
+                  <p class="anum">
+                    <a href="https://stardownloader.tech">Stardownloader.tech </a>© 2021. All Rights Reserved.
+                  </p>
+                  <p class="sea">Any StarMaker video you download is downloaded directly from StarMaker CDN. We do not host any copyright or
+                    pirated video/content in our server. <a href="shivanirajput1312@gmail.com">Contact Us</a> 
+                  </p>
+              
+              </div>
+            </div>
+          </footer>
+    </body>
+</html>
